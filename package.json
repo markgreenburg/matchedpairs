@@ -1,0 +1,21 @@
+{
+  "name": "matchingpairs",
+  "version": "1.0.0",
+  "description": "Finds matched pairs of JS punctuation: {}, [], ()",
+  "main": "matchPairs.js",
+  "scripts": {
+    "test": "run-test"
+  },
+  "keywords": [
+    "matched",
+    "pairs"
+  ],
+  "author": "Mark Greenburg",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
