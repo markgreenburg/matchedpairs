@@ -1,4 +1,7 @@
-// Matched pairs
+/**
+ * Function ensures all pairs of braces, brackets, and parens are 
+ * opened and closed in a syntactically-correct order
+ */
 
 // Create function to ensure all opened pairs are closed
 const matchPairs = (charString) => {
@@ -56,7 +59,7 @@ const matchPairs = (charString) => {
     });
 
     // Our stack should be empty if everything was closed properly and we
-    // don't have any unmatched closes. Let's test that and return the result
+    // shouldn't have any unmatched closes. Test this and return the result
     return (!charStack.length && !unOpenedClose);
 }
 
