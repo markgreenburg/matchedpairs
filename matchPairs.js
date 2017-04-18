@@ -3,7 +3,6 @@
  * opened and closed in a syntactically-correct order
  */
 
-// Create function to ensure all opened pairs are closed
 const matchPairs = (charString) => {
     
     // First, do basic input validation and throw any obvious problems
