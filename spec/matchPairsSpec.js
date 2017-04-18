@@ -3,7 +3,7 @@ const matchPairs = require("../matchPairs");
 describe("Ensure function throws error with bad inputs", () => {
     
     it("throws an error if input not provided", () => {
-        expect(() => matchPairs()).toThrow();
+        expect(() => matchPairs()).toThrowError();
     });
 
     it("throws an error if the input is empty", () => {
@@ -20,7 +20,7 @@ describe("Ensure function throws error with bad inputs", () => {
     });
 });
 
-describe("Ensure functions returns true on good inputs", () => {
+describe("Ensure function returns true on good inputs", () => {
 
     it("returns true for braces", () => {
         expect(matchPairs("{}")).toBe(true);
